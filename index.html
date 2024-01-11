@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed Haridy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <video class="video-loop" autoplay loop muted>
+            <source src="/background-vid.mp4" type="video/mp4">
+        </video>
+
+        <header class="header">
+            <label class="burger-menu" for="menu">
+                <div class="burger-menu__bar"></div>
+                <div class="burger-menu__bar"></div>
+                <div class="burger-menu__bar"></div>
+            </label>
+            <input id="menu" type="checkbox" class="burger-menu__checkbox">
+            <nav class="navigation">
+                <ul class="navigation__list">
+                    <li><a href="#bio" class="navigation__link navigation__bio">Bio</a></li>
+                    <li><a href="#skills" class="navigation__link navigation__skills">Skills</a></li>
+                    <li><a href="#media" class="navigation__link navigation__media">Media</a></li>
+                    <li><a href="#projects" class="navigation__link navigation__projects">Projects</a></li>
+                    <li><a href="#clients" class="navigation__link navigation__clients">My Clients</a></li>
+                    <li><a href="#contact" class="navigation__link navigation__contact">Contacts</a></li>
+                </ul>
+            </nav>
+            <div class="toggle">
+                <h3 class="toggle__title">Switch Themes</h3>
+                <input type="checkbox" class="toggle__checkbox" name="toggle-checkbox" id="toggle">
+                <label class="toggle__label" for="toggle"></label>
+
+            </div>
+        </header>
+
+        <section id="bio" class="bio section">
+            <div class="bio__data">
+                <h1 class="bio__heading">
+                    Hi There, I,m passionate jr. Front-End Dev.
+                </h1>
+                <p class="bio__objective">My name is <span class="bio__name ">Ahmed Haridy </span>passoinate about
+                    crafting engaging web
+                    experiences, i thrive on turning ideas into visually appealing and functional websites. this is my
+                    social and working platforms <a
+                        href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
+                        class="bio__linkedin">LinkedIn</a>, <a href="https://khamsat.com/user/ahmedharidy2000"
+                        class="bio__khamsat">khamsat</a>,
+                    <a href="https://github.com/ahmedharidy" class="bio__github">Git-hub</a>,
+                    <a href="https://www.upwork.com/freelancers/~01e69e95641146be69?viewMode=1"
+                        class="bio__upwork">Upwork</a>. let,s build
+                    something extraordinary together
+                </p>
+                <a href="#contact" class="bio__links say-hi-link">Say Hi</a>
+                <a href="" class="bio__links find-out-link">Download CV <span class="bio-arrow">↓</span></a>
+            </div>
+            <div class="bio__pic-content">
+                <img class="bio__pic" src="/img/me.png" alt="haridy's pic">
+            </div>
+        </section>
+
+
+        <section id="skills" class="skills section section--with-bg">
+            <h2 class="h2__heading">
+                skills
+            </h2>
+            <ul class="skills__list">
+                <li class="skills__item">
+                    <h4 class="skills__title">html</h4>
+                    <span class="skills__year">1year</span>
+                </li>
+                <li class="skills__item">
+                    <h4 class="skills__title">css</h4>
+                    <span class="skills__year">1 year</span>
+                </li>
+                <li class="skills__item">
+                    <h4 class="skills__title">javaScript</h4>
+                    <span class="skills__year">1 year</span>
+                </li>
+                <li class="skills__item">
+                    <h4 class="skills__title">react</h4>
+                    <span class="skills__year">1 year</span>
+                </li>
+                <li class="skills__item">
+                    <h4 class="skills__title">wordpress</h4>
+                    <span class="skills__year">1 year</span>
+                </li>
+                <li class="skills__item">
+                    <h4 class="skills__title">redux</h4>
+                    <span class="skills__year">1 year</span>
+                </li>
+            </ul>
+        </section>
+
+        <section id="media" class="media section">
+            <video class="media__video" poster="/img/thumbnail.jpeg" controls>
+                <source src="/starter-template-copy.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <section id="projects" class="projects section">
+            <h2 class="h2__heading">My Projects</h2>
+            <div class="projects__item">
+                <img src="/img/project 1.png" alt="casper" class="project-img">
+                <div class="projects__data">
+                    <h3 class="h3-heading">Casper</h3>
+                    <p class="projects-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
+                        recusandae ea harum quasi qui
+                        nostrum odio voluptas nemo praesentium natus.</p>
+                    <a class="projects-link" target="_blank" href="https://casper-site.netlify.app/">Go to site</a>
+                    <span>-</span>
+                    <a class="projects-link" target="_blank" href="">edge link</a>
+                </div>
+                <div class="projects__data">
+                    <h3 class="h3-heading">Edu university</h3>
+                    <p class="projects-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
+                        recusandae ea harum quasi qui
+                        nostrum odio voluptas nemo praesentium natus.</p>
+                    <a class="projects-link" target="_blank" href="https://universty.netlify.app/">Go to site</a>
+                    <span>-</span>
+                    <a class="projects-link" target="_blank" href="">edge link</a>
+                </div>
+                <img src="/img/project 2.png" alt="EDU university" class="project-img">
+            </div>
+        </section>
+
+        <section id="clients" class="clients section section--with-bg">
+            <h2 class="h2__heading">What My <br> Clients Said
+            </h2>
+            <div class="clients__opinions">
+                <div class="clients__wrapper">
+                    <p class="clients__opinion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
+                        laboriosam minus asperiores? Cumque aspernatur dignissimos eaque provident! Sapiente, voluptatem
+                        dolorum?</p>
+                    <p class="clients__opinion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
+                        laboriosam minus asperiores? Cumque aspernatur dignissimos eaque provident! Sapiente, voluptatem
+                        dolorum?</p>
+                    <p class="clients__opinion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
+                        laboriosam minus asperiores? Cumque aspernatur dignissimos eaque provident! Sapiente, voluptatem
+                        dolorum?</p>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="contact" class="contact section">
+            <div>
+                <p class="contact__description">
+                    Feel free to reach out to me any time. I would be happy to help.
+                </p>
+                <a class="contact__email" href="mailto:ahmedharidy599@gmail.com">ahmedharidy599@gmail.com</a>
+                <div class="contact__socials">
+                    <a href="" class="contact__social"><img src="/brand/facebook.svg" alt="facebook icon"></a>
+                    <a href="https://github.com/ahmedharidy" class="contact__social"><img src="/brand/github.svg"
+                            alt="github icon"></a>
+                    <a href="" class="contact__social"><img src="/brand/instagram.svg" alt="instagram icon"></a>
+                    <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
+                        class="contact__social"><img src="/brand/LinkedIn.svg" alt="LinkedIn icon"></a>
+                    <a href="" class="contact__social"><img src="/brand/twitter.svg" alt="twitter icon"></a>
+                    <a href="" class="contact__social"><img src="/brand/youtube.svg" alt="youtube icon"></a>
+
+                </div>
+
+            </div>
+            <div class="contact__formcontent">
+                <h2 class="h2__heading">Let's work <br> together!</h2>
+                <form action="results.html">
+                    <div class="contact__inputs">
+                        <input class="contact__input" type="text" placeholder="Full Name" name="full name" required>
+                        <input class="contact__input" type="tel" placeholder="Phone No." name="tel" pattern="[0-9]{11}"
+                            required>
+                    </div>
+                    <textarea class="contact__input contact__textarea" name="description" id="description" rows="1"
+                        placeholder="Your Message"></textarea>
+                    <input class="contact__input contact__button" type="submit" value="Send Message">
+                </form>
+            </div>
+        </section>
+        <footer>
+            <p class="footer footer__madewithlove">Made With <i class="fa-solid fa-heart" aria-hidden="true"></i> by
+                Haridy
+            </p>
+        </footer>
+    </div>
+    <script src="https://kit.fontawesome.com/50c69cc5fc.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
